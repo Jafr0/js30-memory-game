@@ -12,7 +12,7 @@ let mov = 0;
 
 var theme = new Audio();
 theme.preload = 'auto';
-theme.src = 'js30-memory-game/assets/theme.mp3';
+theme.src = 'assets/theme.mp3';
 theme.play();
 theme.loop = -1;
 
@@ -56,49 +56,49 @@ function hold() {
 	if (matchs === 1) {
 		var audio = new Audio();
 		audio.preload = 'auto';
-		audio.src = 'js30-memory-game/assets/fb.mp3';
+		audio.src = 'assets/fb.mp3';
 		audio.play();
 	}
 	if (matchs === 2) {
 		var audio = new Audio();
 		audio.preload = 'auto';
-		audio.src = 'js30-memory-game/assets/dk.mp3';
+		audio.src = 'assets/dk.mp3';
 		audio.play();
 	}
 	if (matchs === 3) {
 		var audio = new Audio();
 		audio.preload = 'auto';
-		audio.src = 'js30-memory-game/assets/tk.mp3';
+		audio.src = 'assets/tk.mp3';
 		audio.play();
 	}
 	if (matchs === 4) {
 		var audio = new Audio();
 		audio.preload = 'auto';
-		audio.src = 'js30-memory-game/assets/uk.mp3';
+		audio.src = 'assets/uk.mp3';
 		audio.play();
 	}
 	if (matchs === 5) {
 		var audio = new Audio();
 		audio.preload = 'auto';
-		audio.src = 'js30-memory-game/assets/rp.mp3';
+		audio.src = 'assets/rp.mp3';
 		audio.play();
 	}
 	if (matchs === 6) {
 		var audio = new Audio();
 		audio.preload = 'auto';
-		audio.src = 'js30-memory-game/assets/k6.mp3';
+		audio.src = 'assets/k6.mp3';
 		audio.play();
 	}
 	if (matchs === 7) {
 		var audio = new Audio();
 		audio.preload = 'auto';
-		audio.src = 'js30-memory-game/assets/k7.mp3';
+		audio.src = 'assets/k7.mp3';
 		audio.play();
 	}
 	if (matchs === 8) {
 		var audio = new Audio();
 		audio.preload = 'auto';
-		audio.src = 'js30-memory-game/assets/k8.mp3';
+		audio.src = 'assets/k8.mp3';
 		audio.play();
 	}
 
