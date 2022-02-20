@@ -13,7 +13,9 @@ let mov = 0;
 var theme = new Audio();
 theme.preload = 'auto';
 theme.src = 'assets/theme.mp3';
-theme.play();
+document.body.addEventListener("mousemove", function () {
+	theme.play()
+})
 theme.loop = -1;
 
 
