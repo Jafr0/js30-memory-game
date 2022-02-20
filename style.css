@@ -133,3 +133,28 @@ footer {
 		flex-wrap: wrap;
 	}
 }
+
+.start {
+	position: absolute;
+	width: 30%;
+	height: 20%;
+	border: 2px solid red;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 15%;
+	margin-left: 32%;
+	background-color: rgba(0, 0, 0, 0.719);
+	visibility: visible;
+	z-index: 10;
+}
+
+.start.show {
+	visibility: hidden;
+}
+
+.play {
+	display: block;
+	padding: 20px;
+	margin: 20px auto;
+}
