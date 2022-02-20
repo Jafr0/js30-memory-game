@@ -78,7 +78,7 @@ body {
 .win.show {
 	position: absolute;
 	width: 30%;
-	height: 20%;
+	height: 15%;
 	border: 2px solid red;
 	color: white;
 	font-size: 25px;
