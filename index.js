@@ -24,6 +24,7 @@ function game() {
 	theme.preload = 'auto';
 	theme.src = 'assets/theme.mp3';
 	theme.loop = -1;
+	theme.volume = 0.3;
 	theme.play();
 
 
@@ -179,3 +180,4 @@ function game() {
 	cards.forEach(card => card.addEventListener('click', flip));
 }
 
+console.log("Самооценка в 60 баллов\nВёрстка +10\nЛогика игры +10\nИгра завершается, когда открыты все карточки +10\nРезультат +10\nПереворот карт +10\n Доп функционал (Старт, Окно выигрыша, Звуки) +10")
